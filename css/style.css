@@ -1,0 +1,79 @@
+body {
+  background-image: url('/imagens/op-wall.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+  
+.container {
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgba(248, 248, 248, 0.9); 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin-top: 10vh; 
+  }
+  
+  
+  .header {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .foto-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-weight: 200; 
+  }
+  
+  .links {
+    width: 100%;
+    max-width: 500px;
+    height: 40%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem; 
+  }
+  
+  .link {
+    width: 300px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px red;
+    transition: 0.3s;
+    padding: 1rem;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+  }
+  
+  
+  .link .icone {
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem; 
+  }
+  
+  .link:hover {
+    background-color: #FDDE0A;
+    box-shadow: 0 0 10px #FDDE0A;
+  }
+  
